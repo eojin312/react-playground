@@ -76,4 +76,17 @@ let world = function () {
 
 world();
 
+const eojin = {
+    name: "eojinLee",
+    age: 21,
+    getName: function () {
+        return this.name;
+    }
+};
+
+const hisName = eojin.getName();
+
+console.log(hisName);
+console.log(eojin.getName());
+
 
