@@ -70,8 +70,10 @@ let something = sum(1, 2);
 
 console.log(something);
 
+let world = function () {
+    console.log('world');
+};
 
-
-
+world();
 
 
