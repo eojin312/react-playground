@@ -20,6 +20,8 @@ let user = {
     isValid: true
 };
 
+let family = ['ejlee', 'hjlee', 'jwlee', 'bmjung', 'kjlee'];
+
 console.log(myName);
 console.log(email);
 console.log(hello);
@@ -35,6 +37,8 @@ console.log("boolean" + myName === "ejlee" ? checked : isShow);
 console.log(obj.abc);
 
 console.log(empty);
+
+console.log(family);
 
 console.log(user);
 
