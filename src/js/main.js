@@ -22,6 +22,8 @@ let user = {
 
 let family = ['ejlee', 'hjlee', 'jwlee', 'bmjung', 'kjlee'];
 
+const integer = 1;
+
 console.log(myName);
 console.log(email);
 console.log(hello);
@@ -45,6 +47,29 @@ console.log(user); // 위에서 생성한 객체 잘나오는지
 console.log(`my age is ${user.age}`);
 
 console.log(`hello ${family.at(0)}`); // family.get(0); 을 해보고싶었음
+
+function helloFunc() {
+    console.log(`hello function ~! ${user.name}`);
+}
+
+helloFunc();
+
+function returnFunc() {
+    return 123;
+}
+
+let integerA = returnFunc();
+
+console.log(integerA);
+
+function sum(a, b) {
+    return a + b;
+}
+
+let something = sum(1, 2);
+
+console.log(something);
+
 
 
 
