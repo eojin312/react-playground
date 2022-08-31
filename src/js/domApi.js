@@ -1,17 +1,12 @@
 const boxEl = document.querySelector('.box');
 
-boxEl.addEventListener('click', function () {
-    console.log('CLICK');
+console.log(boxEl.textContent);
 
-    boxEl.classList.add('active');
-    console.log(
-        boxEl.classList.contains('active')
-    );
-});
+boxEl.textContent = 'ejlee';
 
-const boxEls = document.querySelectorAll('.box');
+console.log(boxEl.textContent);
 
-boxEls.forEach(function (boxEl, index) {
-    boxEl.classList.add(`order-${index+1}`);
-    console.log(boxEl, index);
-});
+
+const a = 'Hello';
+const b = a.split('').reverse().join('');
+console.log(b);
