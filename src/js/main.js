@@ -90,3 +90,11 @@ console.log(hisName);
 console.log(eojin.getName());
 
 
+if (isShow) {
+    console.log("SHOW~!~!!");
+}
+
+if (checked) {
+    console.log(`CHECK THIS OUT 나는 ${user.name}`);
+}
+
