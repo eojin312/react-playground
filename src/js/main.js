@@ -40,7 +40,12 @@ console.log(empty);
 
 console.log(family);
 
-console.log(user);
+console.log(user); // 위에서 생성한 객체 잘나오는지
+
+console.log(`my age is ${user.age}`);
+
+console.log(`hello ${family.at(0)}`); // family.get(0); 을 해보고싶었음
+
 
 
 
